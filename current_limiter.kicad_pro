@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.65,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -76,7 +76,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|132969000|33274000|f7a917c8-11d1-4dc0-95ec-13c62d1cb69c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|137033000|33274000|03f9d980-430e-4792-ab9a-d05cf722d675|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|124688400|47100000|ef4df409-d814-4c9c-9907-4b608cf4a4f8|8b6a071a-8b6a-4599-a38c-db56f3821cea",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -503,8 +516,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Current_Limiter_Stuff"
+    ],
+    "pinned_symbol_libs": [
+      "Current-limiter-stuff"
+    ]
   },
   "meta": {
     "filename": "current_limiter.kicad_pro",
@@ -667,7 +684,7 @@
         "uuid": "9cad53dd-e6ec-4945-b0cd-3a61fa1e6914"
       }
     ],
-    "used_designators": "#FLG1-3,J1-3,#PWR1-15,TP1-4,R1-7,D1-3,C1-9,Q1-3,U1-3",
+    "used_designators": "RV1,U1-3,Q1-3,C1-10,D1-3,R1-9,TP1-6,#PWR1-15,J1-4,#FLG1-3",
     "variants": []
   },
   "sheets": [
