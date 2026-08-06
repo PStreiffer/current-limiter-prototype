@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Current_Limiter_Stuff") (type "KiCad") (uri "${KIPRJMOD}/Current_Limiter_Stuff.pretty") (options "") (descr ""))
+)
