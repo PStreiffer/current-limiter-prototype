@@ -84,10 +84,6 @@
         [
           "annular_width|137033000|33274000|03f9d980-430e-4792-ab9a-d05cf722d675|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "silk_over_copper|124688400|47100000|ef4df409-d814-4c9c-9907-4b608cf4a4f8|8b6a071a-8b6a-4599-a38c-db56f3821cea",
-          ""
         ]
       ],
       "meta": {
@@ -684,7 +680,7 @@
         "uuid": "9cad53dd-e6ec-4945-b0cd-3a61fa1e6914"
       }
     ],
-    "used_designators": "RV1,U1-3,Q1-3,C1-10,D1-3,R1-9,TP1-6,#PWR1-15,J1-4,#FLG1-3",
+    "used_designators": "RV1,U1-3,Q1-3,C1-10,D1-4,R1-9,TP1-6,#PWR1-17,J1-4,#FLG1-3",
     "variants": []
   },
   "sheets": [
