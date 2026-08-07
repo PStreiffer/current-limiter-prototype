@@ -3787,6 +3787,16 @@
 		)
 		(uuid "d94d95e4-8613-49e8-94a4-868a948cdb08")
 	)
+	(text "DNP\n"
+		(exclude_from_sim no)
+		(at 162.814 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "203ce019-b2d8-4910-aa81-29dc73560976")
+	)
 	(text "Charge Pump\n"
 		(exclude_from_sim no)
 		(at 20.32 16.256 0)
@@ -3880,6 +3890,12 @@
 		(uuid "02dddd84-96ce-4fe9-9f35-c7aecef73763")
 	)
 	(junction
+		(at 154.94 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ffad8e-a47c-466f-8310-0b9ca9bbe7a5")
+	)
+	(junction
 		(at 144.78 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3920,6 +3936,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c16ead6-1fc9-4b08-80db-31588fa4efdd")
+	)
+	(junction
+		(at 139.7 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41700747-f629-47ac-8911-6050f2553931")
 	)
 	(junction
 		(at 57.15 140.97)
@@ -4034,12 +4056,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8fb8e38-c0d4-493b-a9d4-688e9c9e811c")
-	)
-	(junction
-		(at 139.7 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf97242a-bc8a-4efd-a8e6-537bd1f46681")
 	)
 	(junction
 		(at 162.56 86.36)
@@ -4187,16 +4203,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 49.53) (xy 139.7 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a73701f-f2f1-4372-abf9-5a638f7ab8fe")
-	)
-	(wire
-		(pts
 			(xy 205.74 66.04) (xy 205.74 67.31)
 		)
 		(stroke
@@ -4254,16 +4260,6 @@
 			(type default)
 		)
 		(uuid "27ec615e-aa63-4cb2-8f00-4f0a1dccce9d")
-	)
-	(wire
-		(pts
-			(xy 128.27 33.02) (xy 128.27 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "286e70ed-139c-4cf0-9824-056504adbbf1")
 	)
 	(wire
 		(pts
@@ -4637,6 +4633,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 48.26) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699c3ff6-d171-4cde-930f-33fd12bf19a1")
+	)
+	(wire
+		(pts
 			(xy 165.1 71.12) (xy 165.1 96.52)
 		)
 		(stroke
@@ -4727,16 +4733,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 35.56) (xy 128.27 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a28b6c2-a795-431b-8cbd-87eb28739a38")
-	)
-	(wire
-		(pts
 			(xy 196.85 66.04) (xy 196.85 78.74)
 		)
 		(stroke
@@ -4777,7 +4773,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 46.99) (xy 144.78 49.53)
+			(xy 144.78 48.26) (xy 144.78 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4937,6 +4933,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 50.8) (xy 139.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e03c901-74a6-4ddf-af81-9209fc6ac961")
+	)
+	(wire
+		(pts
 			(xy 208.28 66.04) (xy 205.74 66.04)
 		)
 		(stroke
@@ -5027,6 +5033,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f838e2-f7a8-49d5-99c9-0a81616e0910")
+	)
+	(wire
+		(pts
 			(xy 62.23 31.75) (xy 99.06 31.75)
 		)
 		(stroke
@@ -5087,7 +5103,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 49.53) (xy 144.78 49.53)
+			(xy 139.7 50.8) (xy 144.78 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5194,6 +5210,16 @@
 			(type default)
 		)
 		(uuid "d1496cd6-6990-4b50-9830-b4fa534bc16e")
+	)
+	(wire
+		(pts
+			(xy 128.27 33.02) (xy 128.27 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1eef9cf-e936-4f20-991b-85161e207225")
 	)
 	(wire
 		(pts
@@ -5357,16 +5383,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 49.53) (xy 139.7 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0b10aab-4828-491f-a1b0-3bc74bbf91bd")
-	)
-	(wire
-		(pts
 			(xy 83.82 125.73) (xy 83.82 135.89)
 		)
 		(stroke
@@ -5377,7 +5393,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 45.72) (xy 139.7 49.53)
+			(xy 139.7 45.72) (xy 139.7 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5414,16 +5430,6 @@
 			(type default)
 		)
 		(uuid "fa4d4b89-18af-41a3-9732-a1f734f35abd")
-	)
-	(wire
-		(pts
-			(xy 128.27 46.99) (xy 128.27 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd500516-a158-4d0b-b15d-9c8d74c667ab")
 	)
 	(label "fet_gate"
 		(at 139.7 53.34 0)
@@ -5515,6 +5521,16 @@
 		)
 		(uuid "72d612f0-8267-499b-bdc6-874bf3d7732e")
 	)
+	(label "VBATT"
+		(at 154.94 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e3c7f43-22a3-40cb-90c5-8154558c11fb")
+	)
 	(label "OSC_IN-"
 		(at 46.99 60.96 0)
 		(effects
@@ -5564,6 +5580,88 @@
 			(justify left bottom)
 		)
 		(uuid "fe2e5999-872c-4917-837b-0fba15c3bc41")
+	)
+	(symbol
+		(lib_id "Diode:BZV55B20")
+		(at 128.27 39.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09583f76-dfaa-481a-ac3a-78e81fe207a8")
+		(property "Reference" "D5"
+			(at 130.81 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZV55B20"
+			(at 130.81 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 123.825 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 128.27 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 128.27 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad2d22c4-5b86-4618-8b83-b04b12c46164")
+		)
+		(pin "2"
+			(uuid "b9f809c4-225b-4ac9-8780-c3559aa89db4")
+		)
+		(instances
+			(project "current_limiter"
+				(path "/9cad53dd-e6ec-4945-b0cd-3a61fa1e6914"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -8280,7 +8378,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZV55B20")
-		(at 128.27 43.18 90)
+		(at 128.27 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8291,7 +8389,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8fca4a8-4a14-46d7-84c5-0f1bed2f17a7")
 		(property "Reference" "D3"
-			(at 130.81 41.9099 90)
+			(at 130.81 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8302,7 +8400,7 @@
 			)
 		)
 		(property "Value" "BZV55B20"
-			(at 130.81 44.4499 90)
+			(at 130.81 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8313,7 +8411,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 132.715 43.18 0)
+			(at 132.715 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8324,7 +8422,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 128.27 43.18 0)
+			(at 128.27 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8335,7 +8433,7 @@
 			)
 		)
 		(property "Description" "20V, 500mW, 2%, Zener diode, MiniMELF"
-			(at 128.27 43.18 0)
+			(at 128.27 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10112,6 +10210,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BZV55B20")
+		(at 154.94 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e914ef82-10f0-412a-8627-652389d7e8f6")
+		(property "Reference" "D6"
+			(at 157.48 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BZV55B20"
+			(at 157.48 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 159.385 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 154.94 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20V, 500mW, 2%, Zener diode, MiniMELF"
+			(at 154.94 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "464037aa-1a31-4f61-a1fb-b9043d84f359")
+		)
+		(pin "2"
+			(uuid "c119ffad-439f-4cab-bfbf-5f9c88356268")
+		)
+		(instances
+			(project "current_limiter"
+				(path "/9cad53dd-e6ec-4945-b0cd-3a61fa1e6914"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 58.42 180)
 		(unit 1)
@@ -10273,7 +10453,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 46.99 0)
+		(at 144.78 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10283,7 +10463,7 @@
 		(dnp no)
 		(uuid "f452360e-67cb-436d-a9bd-ac8df7c45cd7")
 		(property "Reference" "TP5"
-			(at 147.32 42.672 0)
+			(at 147.32 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10294,7 +10474,7 @@
 			)
 		)
 		(property "Value" "Vg"
-			(at 147.32 44.9579 0)
+			(at 147.32 46.2279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10305,7 +10485,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 149.86 46.99 0)
+			(at 149.86 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10316,7 +10496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 46.99 0)
+			(at 149.86 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10327,7 +10507,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 144.78 46.99 0)
+			(at 144.78 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
