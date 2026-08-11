@@ -8528,7 +8528,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "3u3"
 			(at 241.3 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8538,7 +8538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Current_Limiter_Stuff:IND_BOURNS_SDR0302"
 			(at 241.3 139.7 0)
 			(hide yes)
 			(show_name no)
